@@ -1,11 +1,11 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
-import Routes from "./routes/index";
+import AppRoutes from "./routes/index";
 
 function App() {
   return (
     <Router>
-      <Routes />
+      <AppRoutes/>
     </Router>
   );
 }
