@@ -8,3 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-slate-50 {
+  --tw-bg-opacity: 0.1; /* Adjust the value between 0 (transparent) and 1 (opaque) */
+  background-color: rgba(217, 217, 217, 0.14 var(--tw-bg-opacity));
+}
+
