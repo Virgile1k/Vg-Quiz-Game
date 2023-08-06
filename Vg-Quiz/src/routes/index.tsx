@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import GamePage from "../pages/welcomepage";
 import LoginPage from "../pages/auth/Login";
 import SignUpPage from "../pages/auth/Signup";
+import ProfileMenu from "../components/ProfileMenu";
 import Play from "../pages/play";
 
 const AppRoutes: React.FC = () => {
@@ -11,6 +12,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/" element={<GamePage />} />
       <Route path="/Play" element={<Play />} />
       <Route path="/auth/login" element={<LoginPage />} />
+      <Route path="/ProfileMenu" element={<ProfileMenu/>}/>
       <Route path="/auth/signup" element={<SignUpPage />} />
     </Routes>
   );
