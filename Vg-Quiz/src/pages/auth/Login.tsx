@@ -1,15 +1,18 @@
- // LoginPage.js
+// LoginPage.js
 
-import   { useState } from "react";
+import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { auth } from "../../config/firebase";
-import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  GoogleAuthProvider,
+} from "firebase/auth";
 import GoogleIcon from "@mui/icons-material/Google";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 
 import logo from "../../assets/logof.svg";
- 
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -54,7 +57,9 @@ export default function LoginPage() {
 
   return (
     <div className="bg-image h-screen flex justify-center items-center">
-      <h1 className="text-5xl text-white absolute top-10">VPLANET GUESS GAME</h1>
+      <h1 className="text-5xl text-white absolute top-10">
+        VPLANET GUESS GAME
+      </h1>
 
       <div className="bg-white p-10 rounded-lg backdrop-opacity-10 backdrop-invert bg-white/10 mt-10">
         <div className="ml-20 animate-bounce">

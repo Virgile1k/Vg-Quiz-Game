@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyDlOlZRH_mbyxAy9Sz8fAx_Bhbda0SLrhc",
-  authDomain: "vplanetguese.firebaseapp.com",
-  projectId: "vplanetguese",
-  storageBucket: "vplanetguese.appspot.com",
-  messagingSenderId: "952002606522",
-  appId: "1:952002606522:web:0eeab188ff49081d439983",
-  measurementId: "G-D8TLL7451P",
+  apiKey: "AIzaSyAMWYXcCSwwcfgNljonPmTRXnq0R84-gkA",
+  authDomain: "guese-game-3224a.firebaseapp.com",
+  projectId: "guese-game-3224a",
+  storageBucket: "guese-game-3224a.appspot.com",
+  messagingSenderId: "74522658735",
+  appId: "1:74522658735:web:5961ea290de5c3c3bfd15a",
+  measurementId: "G-N1HTS5HLVF"
 };
 
 // Initialize Firebase
